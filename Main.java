@@ -11,16 +11,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         
         ArrayList<StudentUser> student = new ArrayList<>();
-        student.add(new StudentUser("Jason Barrientos", "2A", "BSIT-NDM", "241-0645"));
+        student.add(new StudentUser("Jason", "2A", "BSIT-NDM", "241-0645"));
         student.get(0).setPass("MySecret");
         
-        student.add(new StudentUser("Ziena Laine Barrientos", "2A", "BSIS-BA", "241-0756"));
+        student.add(new StudentUser("Ziena", "2A", "BSIS-BA", "241-0756"));
         student.get(1).setPass("Ily");
         
-        student.add(new StudentUser("Gilbert Barrientos", "1C", "BSMedTech", "241-0990"));
+        student.add(new StudentUser("Gilbert", "1C", "BSMedTech", "241-0990"));
         student.get(2).setPass("IMY");
         
-        student.add(new StudentUser("Mike Lalica", "2A", "BSIT", "241-1055"));
+        student.add(new StudentUser("Mike", "2A", "BSIT", "241-1055"));
         student.get(3).setPass("12345678");
         
         System.out.println("Welcome Student!");
